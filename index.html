@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="./files/logo.png"  type="image/gif" sizes="16x16">
+	<title>ASTRO DESIGNERS | Developers</title>
+	<link rel="stylesheet" href="./files/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./files/bootstrap-min.css">
+	<link rel="stylesheet" type="text/css" href="./files/style.css">
+	<link rel="stylesheet" type="text/css" href="./files/fontawesome-all.min.css">
+	<link rel="stylesheet" href="./files/font-awesome.min.css">
+	<script src="./files/jquery.min.js.download"></script>
+	<script type="text/javascript" src="./files/jquery.validate.js.download"></script>
+	<script src="./files/bootstrap.min.js.download"></script>
+	<link rel="stylesheet" type="text/css" href="./files/aos.css">
+	<script src="mainscript.js"></script>
+
+	<script>
+	 var str = "nfg{wnin_sha}";
+	function func() { return (str); }
+	console.log(func());
+	</script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button id="collapse" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavBar">
+					<span style="color: white" ;="" class="icon-bar"></span>
+					<span style="color: white" ;="" class="icon-bar"></span>
+					<span style="color: white" ;="" class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><span class="logo"><img src="./files/logo.png" height="30" width="30" ></span><strong class="heading">&nbsp;<span class="hidden-xs">ASTRO DESIGN</span> </strong></a>
+			</div>
+			<div class="collapse navbar-collapse" id="mynavBar">
+				<ul class="nav navbar-nav navbar-right">
+					<li id="home-button"><a class="page-scroll" data-toggle="collapse" data-target=".in" href="#home"><span class="link-color">Home</span></a></li>
+					<li id="about-button"><a class="page-scroll" data-toggle="about" href="#about"><span class="link-color">About us</span></a></li>
+					<li id="service-button"><a class="page-scroll" data-toggle="service" href="#services"><span class="link-color">Services</span></a></li>
+					<li id="team-button"><a class="page-scroll" data-toggle="service" href="#team"><span class="link-color">Our Team</span></a></li>
+					<li id="contact-button"><a class="page-scroll" data-toggle="contact" href="#contact"><span class="link-color">Contact Us</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid background-cover">
+		<div class="row" id="home">
+			<div class="col-lg-12">
+				<div class="home-content">
+					<h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700" class="aos-init aos-animate">
+						<span class="comapny-name">ASTRO </span>
+						<span class="comapny-name-second">DESIGNERS</span>
+					</h1><br>
+					<p >WE DESIGN FOR YOU.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="know-more">
+	<div class="know-us">
+		<h1 class="text-center">Know us</h1>
+	</div>
+	<p class="know-para">
+		Picasso Design is startup that was started by a group of young Architects
+and Engineers pusuing their Degree courses.
+Our strength is our hard work and dedication of these young people.
+These young people's hardwork made great impact in its growth.
+Our startup has done lot's project of in the feild of Ineterior design and wall designing
+and in IT adminnistration.
+	</p>
+</section>
+</body>
+	<script type="text/javascript">
+	$(document).ready(function () {
+	    //Disable mouse right click
+	    $("body").on("contextmenu",function(e){
+	        return false;
+	    });
+	});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.collapse').click(function(){
+				$("nav").toggleClass('scrolled');
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				$("nav").toggleClass('scrolled', $(this).scrollTop() > 1);
+				$('.collapse').toggleClass('scrolled', $(this).scrollTop() > 2);
+
+				$("nav").toggleClass('boxshadow', $(this).scrollTop() > 200);
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			$(document).ready(function () {
+	    $("nav").find("li").on("click", "a", function () {
+	        $('.navbar-collapse.in').collapse('hide');
+	    });
+	});
+		});
+	</script>
+	<script type="text/javascript" src="./Abeyaantrix_files/aos.js.download"></script>
+	<script type="text/javascript">
+		AOS.init();
+	</script>
+
+
+</body>
+</html>
